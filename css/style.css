@@ -1,19 +1,37 @@
 :root {
-  
+  --primary-color: hsl(171, 66%, 44%);
+  --secondary-color: hsl(233, 100%, 69%);
+  --neutral-dark: hsl(210, 10%, 33%);
+  --neutral-light: hsl(201, 11%, 66%);
+  --primary-font: 'Bai Jamjuree', sans-serif;
+}
+
+html {
+  /* font-size: 18px; */
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  font-size: 18px;
 }
 
 .sr-only {
   clip: rect(1px, 1px, 1px, 1px);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   width: 1px;
   margin: -1px;
   overflow: hidden;
   padding: 0;
   position: absolute;
-  
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.fm-attribution {
+  font-size: 11px;
+}
+
+.fm-attribution a {
+  color: hsl(228, 45%, 44%);
+}
