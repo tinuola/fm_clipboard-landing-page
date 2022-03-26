@@ -6,8 +6,8 @@
   --primary-font: 'Bai Jamjuree', sans-serif;
 
   --heading-font-lg: 2rem;
-  /* --heading-font-md: ;
-  --heading-font-sm:  */
+  --heading-font-md: 1.5rem;
+  --heading-font-sm: 1.2rem;
 }
 
 body {
@@ -15,12 +15,13 @@ body {
   text-rendering: optimizeSpeed;
   font-family: var(--primary-font);
   color: var(--neutral-dark);
+  text-align: center;
 }
 
 .site-wrapper {
   max-width: 375px;
   width: 100%;
-  padding: 0 1.25rem;
+  padding: 0 1rem;
   margin: 0 auto;
   background-image: url(../assets/images/bg-header-mobile.png);
   background-position: top center;
@@ -47,7 +48,7 @@ body {
 
 header {
   padding-top: 8rem;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .logo-container {
@@ -59,10 +60,6 @@ header {
   width: 25%;
 }
 
-.header-content-container {
-  text-align: center;
-}
-
 .header-content-container h2 {
   font-size: var(--heading-font-lg);
   margin-bottom: 1.25rem;
@@ -72,7 +69,7 @@ header {
   font-size: 17px;
   color: var(--neutral-light);
   margin-bottom: 3rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .button-group button {
@@ -89,14 +86,42 @@ header {
 }
 
 .button-group button:nth-of-type(1) {
-  /* border-color: var(--primary-color); */
   background-color: var(--primary-color);
-  /* box-shadow: 0px 1px 3px var(--primary-color); */
 }
 
 .button-group button:nth-of-type(2) {
   background-color: var(--secondary-color);
-  /* margin-bottom: 0; */
+}
+
+section h3 {
+  font-size: var(--heading-font-md);
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+section h4 {
+  font-size: var(--heading-font-sm);
+  margin-bottom: .75rem;
+}
+
+/* Refactor? */
+section p {
+  font-size: 1.125rem;
+  color: var(--neutral-light);
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.feature-one {
+  margin-bottom: 4rem;
+}
+
+.feature__img-container {
+  margin-bottom: 3rem;
+}
+
+.feature-two {
+  margin-bottom: 10rem;
 }
 
 .fm-attribution {
