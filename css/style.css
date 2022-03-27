@@ -124,6 +124,26 @@ section p {
   margin-bottom: 10rem;
 }
 
+.feature-four {
+  margin-bottom: 8rem;
+}
+
+.feature-four__item img {
+  margin: 0 auto 1.5rem auto;
+}
+
+.feature-logos {
+  margin-bottom: 10rem;
+}
+
+.feature-logos img {
+  margin: 0 auto 4rem auto;
+}
+
+.feature-download {
+  margin-bottom: 10rem;
+}
+
 .fm-attribution {
   font-size: 11px;
 }
