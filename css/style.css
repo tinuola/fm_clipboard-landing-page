@@ -4,7 +4,6 @@
   --neutral-dark: hsl(210, 10%, 33%);
   --neutral-light: hsl(201, 11%, 66%);
   --primary-font: 'Bai Jamjuree', sans-serif;
-
   --heading-font-lg: 2rem;
   --heading-font-md: 1.5rem;
   --heading-font-sm: 1.2rem;
@@ -31,13 +30,13 @@ body {
 }
 
 .site-wrapper {
-  /* max-width: 375px; */
-  /* width: 100%; */
-  /* padding: 0 1rem; */
   margin: 0 auto;
-  /* background-image: url(../assets/images/bg-header-mobile.png); */
-  /* background-position: top center; */
-  /* background-repeat: no-repeat; */
+}
+
+@media (min-width: 900px){
+  .site-wrapper {
+    max-width: 1440px;
+  }
 }
 
 .container-full {
@@ -66,9 +65,15 @@ header {
   background-size: cover;
 }
 
-@media (min-width: 768px){
+@media (min-width: 900px){
   header {
     background-image: url(../assets/images/bg-header-desktop.png);
+  }
+}
+
+@media (min-width: 900px){
+  header {
+    margin-bottom: 7rem;
   }
 }
 
@@ -79,6 +84,12 @@ header {
 .logo {
   margin: 0 auto;
   width: 30%;
+}
+
+@media (min-width: 900px){
+  .logo {
+    width: 20%;
+  }
 }
 
 .header-content-container h2 {
@@ -93,7 +104,7 @@ header {
   line-height: 1.6;
 }
 
-@media (min-width:800px) {
+@media (min-width:900px) {
   .button-group {
     display: flex;
     justify-content: space-between;
@@ -113,7 +124,7 @@ header {
   box-shadow: 0px 2px 3px var(--neutral-dark);
 }
 
-@media (min-width:800px) {
+@media (min-width:900px) {
   .button-group button {
     width: 47%;
   }
@@ -138,7 +149,6 @@ section h4 {
   margin-bottom: .75rem;
 }
 
-/* Refactor? */
 section p {
   font-size: 1.125rem;
   color: var(--neutral-light);
@@ -156,6 +166,28 @@ section p {
 
 .feature-two {
   margin-bottom: 10rem;
+}
+
+@media (min-width: 900px){
+  .feature-two {
+    margin-bottom: 7rem;
+  }
+
+  .container.feature-two {
+    max-width: 100%;
+    display: flex;
+  }
+
+  .feature-two .feature__img-container {
+    position: relative;
+    left: -85px;
+  }
+
+  .feature-two__group {
+    text-align: left;
+    align-self: center;
+    max-width: 380px;
+  }
 }
 
 .feature-three {
