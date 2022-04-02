@@ -15,6 +15,7 @@ body {
   font-family: var(--primary-font);
   color: var(--neutral-dark);
   text-align: center;
+  background-color: #474c4c;
 }
 
 .sr-only {
@@ -31,6 +32,7 @@ body {
 
 .site-wrapper {
   margin: 0 auto;
+  background-color: #fff;
 }
 
 @media (min-width: 900px){
