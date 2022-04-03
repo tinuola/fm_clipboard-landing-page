@@ -23,7 +23,7 @@ body {
   font-family: var(--primary-font);
   color: var(--neutral-dark);
   text-align: center;
-  background-color: #474c4c;
+  background-color: var(--neutral-dark);
 }
 
 .sr-only {
