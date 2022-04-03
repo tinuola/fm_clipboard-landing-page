@@ -320,6 +320,10 @@ footer ul li {
   margin-bottom: 1.5rem;
 }
 
+footer ul li:hover {
+  color: var(--primary-color);
+}
+
 @media (min-width: 900px) {
   footer ul {
     width: 65%;
@@ -358,6 +362,11 @@ footer ul li {
   margin: 3rem auto 0 auto;
 }
 
+.social-icons__group img:hover {
+  -webkit-filter: invert(56%) sepia(50%) saturate(622%) hue-rotate(122deg) brightness(100%) contrast(84%);
+  filter: invert(56%) sepia(50%) saturate(622%) hue-rotate(122deg) brightness(100%) contrast(84%);
+}
+
 @media (min-width: 900px) {
   .social-icons__group {
     margin: 0;
@@ -379,7 +388,7 @@ footer ul li {
 }
 
 .fm-attribution {
-  font-size: .85rem;
+  font-size: .75rem;
   color: #fff;
   margin-bottom: .5rem;
 }

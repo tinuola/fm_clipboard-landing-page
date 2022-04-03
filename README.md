@@ -14,3 +14,8 @@ Users should be able to:
 ### Solution
 
 Live Site: [https://tinuola.github.io/fm-clipboard-landing-page/](https://tinuola.github.io/fm-clipboard-landing-page/)
+
+
+### Resources
+
+- [Hex Color To CSS Filter Converter](https://isotropic.co/tool/hex-color-to-css-filter/)
