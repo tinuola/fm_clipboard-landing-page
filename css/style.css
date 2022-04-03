@@ -338,11 +338,16 @@ footer ul li {
   }
 
   footer ul li:nth-child(2){
-    order: 1
+    order: 1;
   }
 
   footer ul li:nth-child(4){
-    order: 2
+    order: 2;
+  }
+
+  footer ul li:nth-child(2),
+  footer ul li:nth-child(4){
+    margin-bottom: 0;
   }
 }
 
@@ -367,12 +372,18 @@ footer ul li {
   }
 }
 
+.attribution-row {
+  background-color: var(--neutral-dark);
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
 .fm-attribution {
-  font-size: .75rem;
-  color: unset;
+  font-size: .85rem;
+  color: #fff;
   margin-bottom: .5rem;
 }
 
 .fm-attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #fff;
 }
